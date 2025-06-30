@@ -1,9 +1,43 @@
 # alx-project-0x14
 
-## API Overview
-Describe the purpose of the MoviesDatabase API (e.g., retrieving movie details, searching by title, listing genres or popular releases).
+# ALX Movie App 🎬
 
-Example: > The MoviesDatabase API provides access to a large catalog of movie data including titles, release dates, genres, ratings, and more. It supports endpoints for searching, retrieving metadata, and filtering based on different criteria.
+This is a starter project for the ALX Movie App built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **ESLint**. It is scaffolded to promote scalable architecture, clean UI components, and best coding practices.
 
-## Version
-Mention the current version of the API (e.g., v1).
+---
+
+## 🚀 Project Setup
+
+This project was bootstrapped using the following command:
+
+```bash
+npx create-next-app@latest alx-movie-app --typescript --eslint --tailwind
+
+## Setup Options:
+
+❌ No to using src/ directory
+
+❌ No to App Router
+
+✅ Yes to customizing the import alias (@/*)
+
+## Project Structure
+
+alx-movie-app/
+├── components/
+│   ├── commons/
+│   │   ├── Button.tsx
+│   │   ├── Loading.tsx
+│   │   └── MovieCard.tsx
+│   └── layouts/
+│       ├── Header.tsx
+│       ├── Footer.tsx
+│       ├── Layout.tsx
+│       └── Button.tsx
+...
+
+## Dependencies
+This app uses the following additional libraries:
+npm install @fortawesome/react-fontawesome @fortawesome/free-brands-svg-icons @fortawesome/fontawesome-svg-core
+
+
